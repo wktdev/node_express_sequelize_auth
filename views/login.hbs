@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<!--______________________________________________________BEGIN APP-->
+	<body>
+		<h1>Log into</h1>
+		<form action="login" method="post">
+			<input type="hidden" name="_csrf" value = {{csrfToken}}>
+			<span>Email</span>
+			<input type="email" name="email",required = "true">
+			<br>
+			<span>Password</span>
+			<input type="password" name="password",required = "true">
+			<br>
+			<input type="submit">
+		</form>
+	</body>
+	<!--______________________________________________________END APP-->
+</html>

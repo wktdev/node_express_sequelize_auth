@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<!--______________________________________________________BEGIN APP-->
+	<body>
+		<h1>Create an account</h1>
+		<form action="register" method="post">
+			<input type="hidden" name="_csrf" value = {{csrfToken}}>
+			<span>First Name</span>
+			<input type="text" name="firstName",required = "true">
+			<br>
+			<span>Last Name</span>
+			<input type="text" name="lastName",required = "true">
+			<br>
+			<span>Email</span>
+			<input type="email" name="email",required = "true">
+			<br>
+			<span>Password</span>
+			<input type="password" name="password",required = "true">
+			<br>
+			<input type="submit">
+		</form>
+	</body>
+	<!--______________________________________________________END APP-->
+</html>

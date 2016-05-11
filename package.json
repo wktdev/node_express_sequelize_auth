@@ -1,0 +1,19 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {},
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.3.0",
+        "body-parser": "^1.15.1",
+        "client-sessions": "^0.7.0",
+        "csurf": "^1.8.3",
+        "express": "^4.13.4",
+        "express-handlebars": "^3.0.0",
+        "mysql": "^2.10.2",
+        "sequelize": "^3.23.0"
+    },
+  "description": ""
+}
